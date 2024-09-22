@@ -1,6 +1,6 @@
 # Importing the modules
 import cv2
-import numpy as np
+
 
 # Reading the image
 image = cv2.imread('img_1.png')
