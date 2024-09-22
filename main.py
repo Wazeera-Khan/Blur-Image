@@ -3,7 +3,8 @@ import cv2
 
 
 # Reading the image
-image = cv2.imread('img_1.png')
+# add your image name instead of 'image.png'
+image = cv2.imread('image.png')
 
 # Applying the filter
 blimg = cv2.blur(image, (5, 5))
